@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NFlux NZB Privacy Policy</title>
+  <meta name="description" content="Privacy policy for NFlux NZB.">
+  <style>
+    :root {
+      color-scheme: dark;
+      --panel: rgba(255, 255, 255, 0.08);
+      --panel-border: rgba(111, 255, 222, 0.22);
+      --text: #f3fbff;
+      --muted: #b7cbd2;
+      --accent: #38f5d2;
+      --shadow: rgba(0, 0, 0, 0.36);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 18% 24%, rgba(44, 159, 255, 0.28), transparent 30rem),
+        radial-gradient(circle at 80% 12%, rgba(56, 245, 210, 0.24), transparent 28rem),
+        linear-gradient(135deg, #020811 0%, #062032 48%, #052d2b 100%);
+    }
+
+    main {
+      width: min(840px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+
+    nav {
+      margin-bottom: 48px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(40px, 7vw, 72px);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 32px 0 12px;
+      font-size: 24px;
+    }
+
+    p {
+      color: var(--muted);
+    }
+
+    .panel {
+      padding: 24px;
+      border: 1px solid var(--panel-border);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: 0 18px 48px var(--shadow);
+      backdrop-filter: blur(18px);
+    }
+
+    footer {
+      padding-top: 32px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <nav>
+      <a href="index.html">Back to NFlux NZB</a>
+    </nav>
+
+    <h1>Privacy Policy</h1>
+
+    <section class="panel">
+      <p>NFlux NZB does not collect, store, sell, or share personal information.</p>
+
+      <h2>Local Configuration</h2>
+      <p>Server addresses, API keys, RSS feeds, and configuration information are stored locally on the user's device. This information is used only to connect to services the user configures.</p>
+
+      <h2>Network Requests</h2>
+      <p>NFlux NZB connects directly to user-configured SABnzbd+ servers and compatible NZB indexer services. NFlux NZB does not route those requests through Hazel Media servers.</p>
+
+      <h2>Content</h2>
+      <p>NFlux NZB does not host content, provide download services, or operate an NZB indexer. It is a remote management client for services configured by the user.</p>
+
+      <h2>Analytics and Crash Reporting</h2>
+      <p>NFlux NZB does not currently include third-party analytics or crash reporting. If analytics or crash reporting services are added in the future, this policy may be updated.</p>
+
+      <h2>Contact</h2>
+      <p>For privacy questions, contact <a href="mailto:nflux@hazelmedia.co">nflux@hazelmedia.co</a>.</p>
+    </section>
+
+    <footer>
+      &copy; 2026 NFlux NZB &middot; <a href="support.html">Support</a>
+    </footer>
+  </main>
+</body>
+</html>
